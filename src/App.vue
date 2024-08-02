@@ -14,6 +14,7 @@
    <TeacherComponent name="Salam"/>
    <ChildToParentDataPassing :getUserDAta="getUserDAta"/>
    <RefKeyWord />
+   <WacherProperty/>
 </template>
 
 <script>
@@ -31,6 +32,7 @@ import RefKeyWord from './components/RefKeyWord.vue';
 import StudentComponent from './components/StudentComponent.vue';
 import TeacherComponent from './components/TeacherComponent.vue';
 import UserComponentB from './components/UserComponentB.vue';
+import WacherProperty from './components/WacherProperty.vue';
 
 
 
@@ -51,6 +53,7 @@ export default {
     TeacherComponent,
     ChildToParentDataPassing,
     RefKeyWord,
+    WacherProperty,
     
   },
   data() {
